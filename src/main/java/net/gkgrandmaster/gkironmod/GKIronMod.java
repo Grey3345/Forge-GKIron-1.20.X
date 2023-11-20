@@ -17,9 +17,7 @@ import org.slf4j.Logger;
 @Mod(GKIronMod.MOD_ID)
 public class GKIronMod
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "gkironmod";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public GKIronMod()
