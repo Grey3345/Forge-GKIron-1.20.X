@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "gkironmod:block/molten_wrought_metal_block"
+      }
+    ]
+  }
+}

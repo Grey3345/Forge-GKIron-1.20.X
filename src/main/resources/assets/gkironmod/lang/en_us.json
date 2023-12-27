@@ -1,0 +1,61 @@
+{
+  "item.gkironmod.sapphire": "Sapphire",
+  "item.gkironmod.slag": "Slag",
+  "item.gkironmod.raw_wrought_iron_chunk": "Raw Wrought Iron Chunk",
+  "item.gkironmod.wrought_iron_ingot": "Wrought Iron Ingot",
+  "item.gkironmod.wrought_iron_nugget": "Wrought Iron Nugget",
+  "item.gkironmod.wrought_iron_horseshoe": "Wrought Iron Horseshoe",
+  "item.gkironmod.refined_wrought_iron_ingot": "Refined Wrought Iron Ingot",
+  "item.gkironmod.refined_wrought_iron_nugget": "Refined Wrought Iron Nugget",
+  "item.gkironmod.sand_paper": "Sand Paper",
+  "item.gkironmod.fire_poker": "Fire Poker",
+  "item.gkironmod.tongs": "Tongs",
+  "item.gkironmod.molten_wrought_metal_bucket": "Molten Metal Bucket",
+
+  "itemGroup.gkiron_tab": "GK Iron Tab",
+
+  "block.gkironmod.sapphire_block": "Sapphire Block",
+
+  "block.gkironmod.weight_block": "Weight Block",
+
+  "block.gkironmod.metal_slag_block": "Metal Slag Block",
+  "block.gkironmod.painted_wrought_iron_block": "Painted Wrought Iron Block",
+  "block.gkironmod.painted_wrought_iron_block_trimmed": "Painted Wrought Iron Block Trimmed",
+
+
+  "block.gkironmod.raw_wrought_iron_block": "Raw Wrought Iron Block",
+  "block.gkironmod.raw_wrought_iron_block_exposed": "Raw Wrought Iron Block Exposed",
+  "block.gkironmod.raw_wrought_iron_block_weathered": "Raw Wrought Iron Block Weathered",
+  "block.gkironmod.raw_wrought_iron_block_rusted": "Raw Wrought Iron Block Rusted",
+
+  "block.gkironmod.raw_wrought_iron_block_warm": "Raw Wrought Iron Block Warm",
+  "block.gkironmod.raw_wrought_iron_block_warm_treated": "Raw Wrought Iron Block Warm Treated",
+  "block.gkironmod.raw_wrought_iron_block_hot": "Raw Wrought Iron Block Hot",
+  "block.gkironmod.raw_wrought_iron_block_hot_treated": "Raw Wrought Iron Block Hot Treated",
+  "block.gkironmod.raw_wrought_iron_block_burn": "Raw Wrought Iron Block Burning",
+  "block.gkironmod.raw_wrought_iron_block_burn_treated": "Raw Wrought Iron Block Burning Treated",
+
+  "block.gkironmod.wrought_iron_block": "Wrought Iron Block",
+  "block.gkironmod.wrought_iron_block_exposed": "Wrought Iron Block Exposed",
+  "block.gkironmod.wrought_iron_block_weathered": "Wrought Iron Block Weathered",
+  "block.gkironmod.wrought_iron_block_rusted": "Wrought Iron Block Rusted",
+
+  "block.gkironmod.wrought_iron_block_warm": "Wrought Iron Block Warm",
+  "block.gkironmod.wrought_iron_block_warm_treated": "Wrought Iron Block Warm Treated",
+  "block.gkironmod.wrought_iron_block_hot": "Wrought Iron Block Hot",
+  "block.gkironmod.wrought_iron_block_hot_treated": "Wrought Iron Block Hot Treated",
+  "block.gkironmod.wrought_iron_block_burn": "Wrought Iron Block Burning",
+  "block.gkironmod.wrought_iron_block_burn_treated": "Wrought Iron Block Burning Treated",
+
+  "block.gkironmod.refined_wrought_iron_block": "Refined Wrought Iron Block",
+  "block.gkironmod.refined_wrought_iron_block_exposed": "Refined Wrought Iron Block Exposed",
+  "block.gkironmod.refined_wrought_iron_block_weathered": "Refined Wrought Iron Block Weathered",
+  "block.gkironmod.refined_wrought_iron_block_rusted": "Refined Wrought Iron Block Rusted",
+
+  "block.gkironmod.refined_wrought_iron_block_warm": "Refined Wrought Iron Block Warm",
+  "block.gkironmod.refined_wrought_iron_block_warm_treated": "Refined Wrought Iron Block Warm Treated",
+  "block.gkironmod.refined_wrought_iron_block_hot": "Refined Wrought Iron Block Hot",
+  "block.gkironmod.refined_wrought_iron_block_hot_treated": "Refined Wrought Iron Block Hot Treated",
+  "block.gkironmod.refined_wrought_iron_block_burn": "Refined Wrought Iron Block Burning",
+  "block.gkironmod.refined_wrought_iron_block_burn_treated": "Refined Wrought Iron Block Burning Treated"
+}

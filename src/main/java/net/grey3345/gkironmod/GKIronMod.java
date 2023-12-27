@@ -1,6 +1,15 @@
-package net.gkgrandmaster.gkironmod;
+package net.grey3345.gkironmod;
 
 import com.mojang.logging.LogUtils;
+import net.grey3345.gkironmod.block.ModBlocks;
+import net.grey3345.gkironmod.block.entities.ModBlockEntities;
+import net.grey3345.gkironmod.fluid.ModFluidTypes;
+import net.grey3345.gkironmod.fluid.ModFluids;
+import net.grey3345.gkironmod.item.ModCreativeModTabs;
+import net.grey3345.gkironmod.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -24,6 +33,19 @@ public class GKIronMod
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModTabs.register(modEventBus);
+
+        ModBlockEntities.BLOCK_ENTITIES.register(modEventBus);
+        //ModConfiguredFeatures.CONFIGURED_FEATURES.register(modEventBus);
+        //ModPlacedFeatures.PLACED_FEATURES.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        ModFluids.register(modEventBus);
+        ModFluidTypes.register(modEventBus);
+
+
         modEventBus.addListener(this::commonSetup);
 
         MinecraftForge.EVENT_BUS.register(this);
@@ -37,7 +59,9 @@ public class GKIronMod
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.SAPPHIRE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -51,6 +75,8 @@ public class GKIronMod
     {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.SOURCE_MOLTEN_WROUGHT_METAL.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(ModFluids.FLOWING_MOLTEN_WROUGHT_METAL.get(), RenderType.cutout());
         }
     }
 }

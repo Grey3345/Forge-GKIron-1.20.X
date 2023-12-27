@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "gkironmod:block/painted_wrought_iron_block_trimmed"
+  }
+}
