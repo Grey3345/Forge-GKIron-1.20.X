@@ -154,7 +154,7 @@ public class HeatableBlock extends Block implements WeatheringCopper {
             if (l > 4) {
                 break;
             }
-
+            //BlockPos posUp = BlockPos.of(new BlockPos(pos).getY(1));
             if (!blockpos.equals(pos)) {
                 BlockState blockstate = level.getBlockState(blockpos);
                 Block block = blockstate.getBlock();

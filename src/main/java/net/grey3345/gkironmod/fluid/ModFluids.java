@@ -23,8 +23,8 @@ public class ModFluids {
 
 
     public static final ForgeFlowingFluid.Properties MOLTEN_WROUGHT_METAL_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
-            ModFluidTypes.MOLTEN_WROUGHT_METAL_FLUID_TYPE, SOURCE_MOLTEN_WROUGHT_METAL, FLOWING_MOLTEN_WROUGHT_METAL)
-            .slopeFindDistance(2).levelDecreasePerBlock(1).block(ModBlocks.MOLTEN_WROUGHT_METAL_BLOCK)
+            ModFluidTypes.MOLTEN_WROUGHT_METAL_FLUID_TYPE, SOURCE_MOLTEN_WROUGHT_METAL, FLOWING_MOLTEN_WROUGHT_METAL).tickRate(10)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(ModBlocks.MOLTEN_WROUGHT_METAL_BLOCK)
             .bucket(ModItems.MOLTEN_WROUGHT_METAL_BUCKET);
 
 

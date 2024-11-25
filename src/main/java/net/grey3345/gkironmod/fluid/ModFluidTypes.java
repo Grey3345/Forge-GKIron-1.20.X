@@ -20,7 +20,7 @@ public class ModFluidTypes {
             DeferredRegister.create(ForgeRegistries.Keys.FLUID_TYPES, GKIronMod.MOD_ID);
 
     public static final RegistryObject<FluidType> MOLTEN_WROUGHT_METAL_FLUID_TYPE = register("molten_wrought_metal_fluid",
-            FluidType.Properties.create().lightLevel(2).density(15).viscosity(5).temperature(6).canSwim(true).sound(SoundAction.get("drink"),
+            FluidType.Properties.create().lightLevel(2).density(15).viscosity(5).temperature(15).canSwim(true).sound(SoundAction.get("drink"),
                     SoundEvents.HONEY_DRINK));
 
 
